@@ -1,0 +1,13 @@
+sounddevice
+openai-whisper
+pyannote.audio
+SpeechRecognition
+PyAudio
+streamlit
+numpy
+scipy
+torch
+transformers
+datasets
+google-generativeai   # default LLM provider (Gemini 1.5 Flash, free tier available)
+openai                # optional: swap LLM_PROVIDER to "openai" in src/llm_coach.py

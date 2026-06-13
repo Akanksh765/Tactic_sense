@@ -1,0 +1,17 @@
+[server]
+port = 8080
+address = "0.0.0.0"
+enableCORS = false
+enableWebsocketCompression = false
+# Disable file watcher - prevents Streamlit from inspecting ALL transformers
+# sub-modules (which causes thousands of torchvision import errors and freezes
+# the app whenever a button is clicked).
+fileWatcherType = "none"
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+
+[logger]
+# Suppress the transformers/__path__ noise from Streamlit's watcher
+level = "error"

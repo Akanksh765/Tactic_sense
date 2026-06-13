@@ -1,0 +1,24 @@
+TacticSense Crash Report
+Generated  : 2026-06-11 09:12:48
+Command    : E:\Tactic_sense\.venv\Scripts\python.exe -m streamlit run app.py --server.port=8501
+------------------------------------------------------------------------
+
+[STDERR] 2026-06-11 09:12:49.867 
+[STDERR] Warning: the config option 'server.enableCORS=false' is not compatible with
+[STDERR] 'server.enableXsrfProtection=true'.
+[STDERR] As a result, 'server.enableCORS' is being overridden to 'true'.
+[STDERR] 
+[STDERR] More information:
+[STDERR] In order to protect against CSRF attacks, we send a cookie with each request.
+[STDERR] To do so, we must specify allowable origins, which places a restriction on
+[STDERR] cross-origin resource sharing.
+[STDERR] 
+[STDERR] If cross origin resource sharing is required, please disable server.enableXsrfProtection.
+[STDERR]             
+[STDOUT] 
+[STDOUT]   You can now view your Streamlit app in your browser.
+[STDOUT] 
+[STDOUT]   Local URL: http://localhost:8501
+[STDOUT]   Network URL: http://192.168.0.102:8501
+[STDOUT] 
+[STDERR] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
